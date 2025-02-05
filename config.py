@@ -1,0 +1,10 @@
+""" This config file includes constants used in the project"""
+FLOW_DEFAULT_PRIO_FORWARDING = 10
+FLOW_DEFENSE_PRIO_FORWARDING = 1
+FLOW_DEFENSE_PRIO_BLOCKING = 11
+TABLE_ROUTING = 0
+FLOW_DEFAULT_IDLE_TIMEOUT = 2 # in seconds
+FLOW_ATTACK_HARD_TIMEOUT = 15 # in seconds
+
+PACKET_COUNT_RESOLUTION = 0.1 # in seconds
+MONITOR_PERIOD = 2 # in seconds
