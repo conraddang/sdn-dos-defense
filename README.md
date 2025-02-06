@@ -8,6 +8,8 @@ background information. This document shows how to set up the system.
 We propose a novel concept that mitigates DoS attacks in SDN networks. As the centralized controller in an SDN exposes a single point of failure, a malicious attacker can overload the controller by sending many requests into the network, resulting in loss of legitimate traffic. Our system prevents the loss of legitimate traffic. In the first stage, our system activates an additional server that queues the incoming requests through the leaky-bucket principle. In the second stage, the controller blocks malicious packets by installing flow rules in the affected switch. This system mitigates DoS attacks and contributes to the reliability of networks.
 
 ![](demo/preview.png)
+![](demo/preview2.png)
+
 
 ### System setup
 
